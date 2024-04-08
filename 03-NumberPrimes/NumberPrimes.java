@@ -1,11 +1,6 @@
-package com.mycompany.numberprimes;
-
 
 import java.util.Scanner;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 public class NumberPrimes {
     public static void main(String[] args) {
