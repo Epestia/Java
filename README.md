@@ -1,1 +1,1 @@
-Git dans le cadre d'un cours d'orienté objet
+Git dans le cadre d'un cours d'orienté objet en java
