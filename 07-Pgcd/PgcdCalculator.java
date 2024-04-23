@@ -3,18 +3,17 @@ import java.util.Scanner;
 public class PgcdCalculator {
     // Méthode pour calculer le PGCD entre deux nombres
     public static int calculerPGCD(int a, int b) {
-        int min = a;
-        if (b < a) {
-            min = b;
-        }
-
-        int pgcd = 1; // Initialiser le PGCD à 1
-        for (int i = 1; i <= min; i++) {
-            if (a % i == 0 && b % i == 0) {
-                pgcd = i; // Mettre à jour le PGCD si i divise à la fois a et b
+        // Tant que les deux nombres sont différents
+        while (a != b) {
+            // Soustraire le plus petit nombre du plus grand
+            if (a > b) {
+                a = a - b;
+            } else {
+                b = b - a;
             }
         }
-        return pgcd; // Retourner le PGCD trouvé
+        // Le PGCD est l'une des valeurs a ou b, ils sont égaux à ce stade
+        return a; // ou return b;
     }
 
     public static void main(String[] args) {
