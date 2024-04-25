@@ -1,0 +1,34 @@
+/*
+1)Est ce que le language java est un language compilé ou interpreté ?
+
+Le java est un langage compilé et interprété, on utilise un compilateur Java pour traduire le code source en bytecode Java. Le bytecode est un ensemble d'instructions destinées à être exécutées par la machine virtuelle Java (JVM). Pour compilé on utilise javac ex : javac HelloWorld.java dans le terminal. Ceci fait un HelloWorld.class qui est le fichier byteCode, on fait ensuite java HelloWorld ( pas besoin de mettre .class car il fait que des points class) dans ce meme terminal.
+
+2)Ecriver une class qui contient la methode qui s'execute lors d'une application java ?
+
+//Creation d'une class 
+public class Main {
+    public static void main(String[] args) {
+    }
+}
+
+3)Avec le polymorphysme, qu'elles sont les 3 mots clés de l'orienté objet ? ( expliqué) 
+
+Encapsulation : Cacher les mécanismes internes et la structure des données d’un composant logiciel derrière une interface de sorte que l’utilisateur de ce composant a seulement besoin de savoir ce que fait ce dernier, et ne soit pas lui-même dépendant des détails de son fonctionnement.
+
+Héritage : Héritage est le transfert des caractéristiques. Une classe peut hériter des caractéristiques d’une autre classe. 
+La classe originale est appelé classe de base ou super classe ou parent.La nouvelle classe est appelé sous-classe (subclass) ou classe étendue (extended class) ou enfant.
+La sous classe peut Utiliser toutes les caractéristiques et tous les comportements de la super classe. Elle peut Override certains comportement de la super classe
+Elle Ajoute des nouvelles caractéristiques et ou nouveaux comportements.
+
+Polymorphysme : La capacité de traiter l’instance d’une sous classe comme si elle est l’instance de la super classe.
+
+4)Qu'elles sont les differents niveau de visibilité ?
+
+public : Les membres sont visibles de partout.
+
+Protected : Accessible pour les sous-classes et les classes du même package.
+
+friendly (pas de mot clé) : Pas de mot clé (friendly) : visible dans le même package.
+
+Private : Les membres sont uniquement visibles dans la même classe.
+*/
